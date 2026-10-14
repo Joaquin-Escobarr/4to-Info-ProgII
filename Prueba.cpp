@@ -7,16 +7,16 @@ int main(){
         cin >> N;
     } while (N<2);
  
-  int matriz [N][2];
+  int Mat[N][2];
         for (int i=0;i<N;i++){
             for (int j=0;j<2;j++){
-  cin >> matriz [i][j];
+  cin >> Mat[i][j];
   }
     } //El for utilizado arriba sirve para cargar la matriz.
 for (int i=0;i<N;i++){
     for(int j=0;j<2;j++){
     
-        vector_resultante[i]= matriz [i] [j]+ matriz [i] [j];//Carga el vector
+        vector_resultante[i]= Mat[i] [j]+ Mat[i] [j];//Carga el vector
 
 }
 }
