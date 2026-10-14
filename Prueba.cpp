@@ -12,16 +12,16 @@ int main(){
             for (int j=0;j<2;j++){
   cin >> matriz [i][j];
   }
-    }
+    } //El for utilizado arriba sirve para cargar la matriz.
 for (int i=0;i<n;i++){
     for(int j=0;j<2;j++){
     
-        vector[i]= matriz [i] [j]+ matriz [i] [j];
+        vector[i]= matriz [i] [j]+ matriz [i] [j];//Carga el vector
 
 }
 }
   for (int i=0;i<n; i++){
-    cout << "El vector resultante es: " << vector[i] << " ";
+    cout << "El vector resultante es: " << vector[i] << " ";//Muestra por pantalla el vector.
   }
   if (n=2){
     if (vector [0]>0 && vector [1]>0){
