@@ -8,8 +8,8 @@ int main(){
     } while (N<2);
  
   int Matrices[N][2];
-        for (int i=0;i<N;i++){
-            for (int j=0;j<2;j++){
+        for (int i=0;i<2;i++){
+            for (int j=0;j<0;j++){
   cin >> Matrices[i][j];
   }
     } //El for utilizado arriba sirve para cargar la matriz.
