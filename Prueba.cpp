@@ -7,7 +7,7 @@ int main(){
         cin >> N;
     } while (N<2);
  
-  int Mat[N][2];
+  int Matrices[N][2];
         for (int i=0;i<N;i++){
             for (int j=0;j<2;j++){
   cin >> Mat[i][j];
