@@ -8,15 +8,15 @@ int main(){
     } while (N<2);
  
   int Matrices[N][2];
-        for (int i=0;i<N;i++){
-            for (int j=0;j<2;j++){
-  cin >> Mat[i][j];
+        for (int i=0;i<2;i++){
+            for (int j=0;j<0;j++){
+  cin >> Matrices[i][j];
   }
     } //El for utilizado arriba sirve para cargar la matriz.
 for (int i=0;i<N;i++){
     for(int j=0;j<2;j++){
     
-        vector_resultante[i]= Mat[i] [j]+ Mat[i] [j];//Carga el vector
+        vector_resultante[i]= Matrices[i] [j]+ Matrices[i] [j];//Carga el vector
 
 }
 }
