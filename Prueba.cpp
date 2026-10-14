@@ -1,29 +1,29 @@
 #include <iostream>
 using namespace std;
 int main(){
-  int n;
-  int vector_resultante[n]; 
+  int N;
+  int vector_resultante[N]; 
   do{
-        cin >> n;
-    } while (n<2);
+        cin >> N;
+    } while (N<2);
  
-  int matriz [n][2];
-        for (int i=0;i<n;i++){
+  int matriz [N][2];
+        for (int i=0;i<N;i++){
             for (int j=0;j<2;j++){
   cin >> matriz [i][j];
   }
     } //El for utilizado arriba sirve para cargar la matriz.
-for (int i=0;i<n;i++){
+for (int i=0;i<N;i++){
     for(int j=0;j<2;j++){
     
         vector_resultante[i]= matriz [i] [j]+ matriz [i] [j];//Carga el vector
 
 }
 }
-  for (int i=0;i<n; i++){
+  for (int i=0;i<N; i++){
     cout << "El vector resultante es: " << vector_resultante[i] << " ";//Muestra por pantalla el vector.
   }
-  if (n=2){
+  if (N=2){
     if (vector_resultante [0]>0 && vector_resultante [1]>0){
      cout << " Pertenece al primer cuadrante";
      }else{
